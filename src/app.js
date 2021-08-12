@@ -14,7 +14,7 @@ app.get("/help", ( req, res) => {
     res.send([{name: 'Manoj', age: 40},{name: 'Shru', age: 35}]);
  });
 
- /*app.get("/about", ( req, res) => {
+ /*app.get("/about", ( req, res) => { test
     res.send('About page test');
  });
 */
