@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const port = process.env.PORT ||  3000;
 
 console.log(__dirname);
 console.log(__filename);
@@ -28,4 +28,4 @@ app.get("/help", ( req, res) => {
  }); 
 
  
-app.listen(3000, () => { console.log('Server started on 3000')});
+app.listen(port, () => { console.log('Server started on '+ port)});
